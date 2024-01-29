@@ -223,7 +223,7 @@ a{
 .album{
 width: 25%;
 display: flex;
-justify-content: space-between;
+justify-content: flex-start;
 align-items: center;
 padding: 5px 10px;
 }
@@ -240,7 +240,7 @@ padding: 5px 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 2px 5px;
+  padding: 2px 10px;
 }
 .album .album-name .song-name{
   margin: 0;
@@ -259,6 +259,7 @@ padding: 5px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 10px;
 }
 .album .add-to-fav img{
   opacity: 0.8;
@@ -270,6 +271,7 @@ padding: 5px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 20px;
 }
 .album .maximise-icon img{
   opacity: 0.8;
@@ -320,9 +322,9 @@ padding: 5px 10px;
 .music-control{
   width: 25%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  padding: 2px 10px 2px 2px;
+  padding: 2px 10px 2px 30px;
 }
 .music-control .music-control-icons{
   display: flex;
@@ -351,7 +353,7 @@ padding: 5px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 10px;
+  padding-left: 15px;
 }
 .music-control .progress-bar img{
   height: 2.5rem;
@@ -361,8 +363,9 @@ padding: 5px 10px;
 }
 .music-control .progress-bar .range{
   height: 0.2rem;
-  width: 70px;
+  width: 100px;
   appearance: none;
+  margin-left: 5px;
 }
 .music-control .range::-webkit-slider-runnable-track{
   background-color: #ddd;
